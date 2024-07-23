@@ -1,6 +1,9 @@
 @extends ("base")
 
 @section('content')
+@section('title')
+Hello City
+@stop
 
     <h1>Hello from Burkina</h1>
         <p>It's currently {{date('H:i:s')}}.</p>
