@@ -18,6 +18,9 @@
             <p>
                 &copy; Copyright {{date('Y')}} 
                 @yield("cop")
+                @if (!Route::is ("about"))
+                    <a href=" {{route("about") }} ">A propos de nous</a>
+                @endif
 
             </a></p>
         </footer>
