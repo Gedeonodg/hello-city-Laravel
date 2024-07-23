@@ -2,7 +2,7 @@
 
 @section('content')
 @section('title',env("APP_NAME"))
-    <img src="/images/Burkina.jpeg" alt="Burkina">
+    <img src="{{asset('images/Burkina.jpeg')}}" alt="Burkina">
 
 
     <h1>Hello from Burkina</h1>
