@@ -1,7 +1,6 @@
-@extends ("base")
+@extends ("layouts.base")
 
 @section('content')
-@section('title',env("APP_NAME"))
     <img src="{{asset('images/Burkina.jpeg')}}" alt="Burkina" class="rounded shadow-md h-32 mt-12">
 
 
