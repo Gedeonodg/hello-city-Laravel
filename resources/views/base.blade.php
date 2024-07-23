@@ -10,7 +10,7 @@
     <body >
         
         @yield ('content')
-        {{dump(config("database.connections.sqlite.driver")) }}    
+        {{--{{dump(config("database.connections.sqlite.driver")) }}--}}
             
         
 

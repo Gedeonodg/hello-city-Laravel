@@ -9,7 +9,7 @@
         <p>It's currently {{date('H:i:s')}}.</p>
 
         @section("cop")
-            <a href="/about-us">A propos de nous</a>
+            <a href=" {{route("about") }} ">A propos de nous</a>
         @endsection
             
 @endsection
